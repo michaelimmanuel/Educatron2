@@ -1,0 +1,516 @@
+.frameChild {
+  background-color: var(--color-whitesmoke);
+  z-index: 1;
+}
+.frameChild,
+.registerInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 686px;
+  left: 1153px;
+  border-radius: 50%;
+  width: 475px;
+  height: 475px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frameInner {
+  top: 413px;
+  left: 0;
+  width: 325px;
+  height: 325px;
+}
+.rectangleIcon {
+  position: absolute;
+  top: -104px;
+  left: 115px;
+  border-radius: var(--br-475xl);
+  width: 1302px;
+  height: 1288px;
+  object-fit: cover;
+  z-index: 3;
+}
+.ellipseParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 194px;
+  width: 1628px;
+}
+.alreadyHaveAn {
+  align-self: stretch;
+  position: relative;
+  text-decoration: underline;
+}
+.createAnAccount1 {
+  margin: 0;
+  width: 473px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.facebookLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-6xs);
+}
+.passwordField {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image1Icon {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  width: 23px;
+  height: 23px;
+  object-fit: cover;
+  z-index: 1;
+}
+.google {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.googleWrapper {
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.passwordIcons {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 113px;
+  height: 47px;
+}
+.image2Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 84px;
+  object-fit: cover;
+  z-index: 1;
+}
+.microsoft {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+}
+.emailIcon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 90px;
+}
+.facebookChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image3Icon {
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  z-index: 1;
+}
+.facebook {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.facebookWrapper {
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.appleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image4Icon {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+  z-index: 1;
+}
+.apple {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.appleWrapper,
+.rdPartyLogin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appleWrapper {
+  width: 113px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.rdPartyLogin {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-12xs);
+}
+.googleLogin,
+.socialMediaLogins {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.googleLogin {
+  width: 493px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.socialMediaLogins {
+  width: 702px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 23px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.emailChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.email1 {
+  width: 165.6px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-fredoka);
+  font-size: var(--font-size-16xl);
+  background-color: transparent;
+  height: 42px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.appleLogo,
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 45.7px var(--padding-13xl);
+  position: relative;
+}
+.appleLogo {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-xl) 0;
+}
+.usernameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.username1 {
+  width: 210px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-fredoka);
+  font-size: var(--font-size-16xl);
+  background-color: transparent;
+  height: 42px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.appleLogo1,
+.username {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.username {
+  flex: 1;
+  padding: var(--padding-8xl) var(--padding-24xl) var(--padding-14xl);
+  position: relative;
+}
+.appleLogo1 {
+  align-self: stretch;
+  padding: 0 0 38px;
+}
+.passwordsMustHave {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.passwordsMustHaveMin8ChaWrapper {
+  width: 677px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.passwordChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.password1 {
+  width: 210px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-fredoka);
+  font-size: var(--font-size-16xl);
+  background-color: transparent;
+  height: 42px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.appleLogo2,
+.password {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password {
+  flex: 1;
+  padding: var(--padding-8xl) var(--padding-28xl) var(--padding-14xl);
+  position: relative;
+}
+.appleLogo2 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-xl);
+}
+.confirmPasswordChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.confirmPassword1 {
+  width: 334px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.confirmPassword,
+.facebookLogo {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.confirmPassword {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-8xl) var(--padding-24xl) var(--padding-14xl);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-gray-300);
+}
+.facebookLogo {
+  width: 702px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 11px;
+  font-size: 13px;
+}
+.register1,
+.roundedShapeIcon {
+  position: absolute;
+  margin: 0 !important;
+}
+.roundedShapeIcon {
+  width: 227px;
+  height: 227px;
+  top: -107px;
+  left: -70px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.register1 {
+  width: 130px;
+  bottom: 27px;
+  left: 501px;
+  font-size: var(--font-size-16xl);
+  text-decoration: underline;
+  color: var(--color-black);
+  display: inline-block;
+  z-index: 1;
+}
+.createAnAccount,
+.foreground {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.createAnAccount {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-sm) 69px 119px var(--padding-xl);
+  position: relative;
+  gap: 109px;
+  font-size: var(--font-size-38xl);
+}
+.foreground {
+  position: absolute;
+  top: 19px;
+  left: 332px;
+  width: 1255px;
+  align-items: flex-start;
+  padding: var(--padding-lgi) var(--padding-11xl);
+  gap: 49px;
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gainsboro);
+  font-family: var(--font-fredoka);
+}
+.register {
+  width: 1920px;
+  height: 1080px;
+  max-width: 100%;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .createAnAccount1 {
+    font-size: var(--font-size-27xl);
+  }
+  .confirmPassword1,
+  .email1,
+  .password1,
+  .register1,
+  .username1 {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .register {
+    height: auto;
+    min-height: 1080;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alreadyHaveAn {
+    font-size: var(--font-size-lg);
+  }
+  .createAnAccount1 {
+    font-size: var(--font-size-15xl);
+  }
+  .confirmPassword1,
+  .email1,
+  .password1,
+  .register1,
+  .username1 {
+    font-size: var(--font-size-2xl);
+  }
+}

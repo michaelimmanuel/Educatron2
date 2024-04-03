@@ -1,0 +1,108 @@
+.comment1Child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-100);
+}
+.ellipseIcon {
+  height: 96.4px;
+  width: 98px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.edwardNathanS,
+.universitasMultimediaNusanta {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.edwardNathanSParent,
+.ellipseParent,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.edwardNathanSParent {
+  flex-direction: column;
+  gap: var(--gap-4xs-8);
+}
+.ellipseParent,
+.frameDiv {
+  max-width: 100%;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: var(--gap-8xl);
+  z-index: 1;
+}
+.loremIpsumDolor1 {
+  height: 169.1px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.comment1,
+.disconnector,
+.loremIpsumDolorSitAmetCoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsumDolorSitAmetCoWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) 0 var(--padding-4xs);
+  font-size: var(--font-size-6xl);
+}
+.comment1,
+.disconnector {
+  flex-direction: column;
+}
+.comment1 {
+  align-self: stretch;
+  padding: var(--padding-6xl-5) var(--padding-7xl) var(--padding-14xl-4);
+  position: relative;
+  gap: var(--gap-5xl-6);
+}
+.disconnector {
+  width: 577px;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-xl);
+}
+@media screen and (max-width: 925px) {
+  .edwardNathanS {
+    font-size: var(--font-size-13xl);
+  }
+  .ellipseParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edwardNathanS {
+    font-size: var(--font-size-5xl);
+  }
+  .universitasMultimediaNusanta {
+    font-size: var(--font-size-base);
+  }
+  .loremIpsumDolor1 {
+    font-size: var(--font-size-xl);
+  }
+}

@@ -1,0 +1,36 @@
+.wrapperFrame5Child {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 1340px;
+  width: 100%;
+  transform: scale(1.62);
+}
+.home,
+.wrapperFrame5 {
+  border-radius: var(--br-31xl);
+  display: flex;
+}
+.wrapperFrame5 {
+  height: 4320px;
+  flex: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  width: 1920px;
+  height: 7000px;
+  background-color: var(--color-darkgray);
+  max-width: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2661xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+}

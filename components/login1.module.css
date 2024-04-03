@@ -1,0 +1,381 @@
+.backgroundChild,
+.backgroundItem {
+  position: absolute;
+  margin: 0 !important;
+}
+.backgroundChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+}
+.backgroundItem {
+  height: 1288px;
+  width: 1302px;
+  top: calc(50% - 644px);
+  left: -292px;
+  border-radius: var(--br-475xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.educatron,
+.welcomeTo {
+  margin: 0;
+}
+.welcomeToEducatronContainer {
+  margin: 0;
+  width: 679px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.background,
+.backgroundInner {
+  height: 1799px;
+  width: 2379px;
+  position: absolute;
+  margin: 0 !important;
+  top: -366px;
+  left: -320px;
+  z-index: 3;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 264px var(--padding-107xl);
+  box-sizing: border-box;
+  min-height: 1080px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 135px;
+  color: var(--color-gainsboro);
+  font-family: var(--font-fredoka);
+}
+.alreadyHaveAn,
+.login1 {
+  margin: 0;
+}
+.alreadyHaveAnContainer {
+  margin: 0;
+  width: 663px;
+  position: relative;
+  font-size: var(--font-size-38xl);
+  font-weight: 400;
+  font-family: inherit;
+  text-align: right;
+  display: inline-block;
+  max-width: 100%;
+}
+.googleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image1Icon {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  width: 23px;
+  height: 23px;
+  object-fit: cover;
+  z-index: 1;
+}
+.google {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.googleWrapper {
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.microsoftChild {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 113px;
+  height: 47px;
+}
+.image2Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 84px;
+  object-fit: cover;
+  z-index: 1;
+}
+.microsoft {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+}
+.microsoftWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  min-width: 90px;
+}
+.facebookChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image3Icon {
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  z-index: 1;
+}
+.facebook {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.facebookWrapper {
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.appleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+}
+.image4Icon {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+  z-index: 1;
+}
+.apple {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+}
+.appleWrapper,
+.rdPartyLogin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appleWrapper {
+  width: 113px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.rdPartyLogin {
+  width: 493px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+}
+.usernameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.username1 {
+  width: 156px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-fredoka);
+  font-size: var(--font-size-16xl);
+  background-color: transparent;
+  height: 42px;
+  position: relative;
+  color: var(--color-gray-300);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.username {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-24xl) var(--padding-11xl);
+  position: relative;
+}
+.passwordChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+}
+.password1 {
+  width: 150px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.password {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-27xl) var(--padding-13xl);
+  position: relative;
+  color: var(--color-gray-300);
+}
+.dontHaveAn,
+.login2 {
+  position: relative;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login2 {
+  align-self: stretch;
+}
+.dontHaveAn {
+  width: 319px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+}
+.foreground,
+.login {
+  max-width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.foreground {
+  width: 908px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 72px 79px;
+  gap: 59px;
+  z-index: 4;
+}
+.login {
+  width: 1920px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 85px 0 86px;
+  position: relative;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-fredoka);
+}
+@media screen and (max-width: 925px) {
+  .welcomeToEducatronContainer {
+    font-size: 54px;
+  }
+  .background {
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .alreadyHaveAnContainer {
+    font-size: var(--font-size-27xl);
+  }
+  .login2,
+  .password1,
+  .username1 {
+    font-size: var(--font-size-9xl);
+  }
+  .foreground {
+    padding: var(--padding-28xl) var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .background {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alreadyHaveAnContainer,
+  .welcomeToEducatronContainer {
+    font-size: var(--font-size-15xl);
+  }
+  .login2,
+  .password1,
+  .username1 {
+    font-size: var(--font-size-2xl);
+  }
+  .dontHaveAn {
+    font-size: var(--font-size-lg);
+  }
+  .foreground {
+    gap: 29px 59px;
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
