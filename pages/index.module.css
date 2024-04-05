@@ -1,18 +1,12 @@
-.login,
-.loginIcon {
+.registerIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
   height: 1080px;
-  position: relative;
 }
-.loginIcon {
-  flex: 1;
-  max-width: 100%;
-  overflow: hidden;
-}
-.login {
+.register {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  letter-spacing: normal;
+  position: relative;
+  height: 1080px;
 }

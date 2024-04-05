@@ -3,6 +3,7 @@
   flex: 1;
   max-width: 100%;
   overflow: hidden;
+  z-index: unset;
   object-fit: contain;
   position: absolute;
   left: 0;
@@ -12,8 +13,9 @@
 }
 .home,
 .wrapperFrame5 {
-  border-radius: var(--br-31xl);
+  border-radius: 50px;
   display: flex;
+  z-index: unset;
 }
 .wrapperFrame5 {
   height: 4320px;
@@ -25,12 +27,12 @@
 .home {
   width: 1920px;
   height: 7000px;
-  background-color: var(--color-darkgray);
+  background-color: #9ba4b5;
   max-width: 100%;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-2661xl);
+  padding: 0 0 2680px;
   box-sizing: border-box;
   letter-spacing: normal;
 }

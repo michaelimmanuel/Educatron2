@@ -10,14 +10,14 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-whitesmoke);
+  background-color: #f1f6f9;
 }
 .backgroundItem {
   height: 1288px;
   width: 1302px;
   top: calc(50% - 644px);
   left: -292px;
-  border-radius: var(--br-475xl);
+  border-radius: 494px;
   object-fit: cover;
   z-index: 1;
 }
@@ -58,15 +58,15 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 264px var(--padding-107xl);
+  padding: 264px 126px;
   box-sizing: border-box;
   min-height: 1080px;
   max-width: 100%;
   z-index: 1;
   text-align: left;
   font-size: 135px;
-  color: var(--color-gainsboro);
-  font-family: var(--font-fredoka);
+  color: #d9d9d9;
+  font-family: Fredoka;
 }
 .alreadyHaveAn,
 .login1 {
@@ -76,7 +76,7 @@
   margin: 0;
   width: 663px;
   position: relative;
-  font-size: var(--font-size-38xl);
+  font-size: 57px;
   font-weight: 400;
   font-family: inherit;
   text-align: right;
@@ -87,8 +87,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 73px;
+  background-color: #d9d9d9;
   width: 100%;
   height: 100%;
 }
@@ -112,15 +112,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-6xs) 0 0;
+  padding: 7px 0 0;
   box-sizing: border-box;
 }
 .microsoftChild {
   position: absolute;
   top: 7px;
   left: 13px;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 73px;
+  background-color: #d9d9d9;
   width: 113px;
   height: 47px;
 }
@@ -146,7 +146,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xs) 0 0;
+  padding: 0 12px 0 0;
   box-sizing: border-box;
   min-width: 90px;
 }
@@ -154,8 +154,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 73px;
+  background-color: #d9d9d9;
   width: 100%;
   height: 100%;
 }
@@ -179,15 +179,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-6xs) var(--padding-smi) 0 0;
+  padding: 7px 13px 0 0;
   box-sizing: border-box;
 }
 .appleChild {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 73px;
+  background-color: #d9d9d9;
   width: 100%;
   height: 100%;
 }
@@ -214,14 +214,14 @@
 .appleWrapper {
   width: 113px;
   flex-direction: column;
-  padding: var(--padding-6xs) 0 0;
+  padding: 7px 0 0;
   box-sizing: border-box;
 }
 .rdPartyLogin {
   width: 493px;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: var(--gap-12xs);
+  gap: 1px;
   max-width: 100%;
 }
 .usernameChild {
@@ -233,19 +233,19 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 20px;
+  background-color: #d9d9d9;
 }
 .username1 {
   width: 156px;
   border: 0;
   outline: 0;
-  font-family: var(--font-fredoka);
-  font-size: var(--font-size-16xl);
+  font-family: Fredoka;
+  font-size: 35px;
   background-color: transparent;
   height: 42px;
   position: relative;
-  color: var(--color-gray-300);
+  color: rgba(0, 0, 0, 0.6);
   text-align: center;
   display: inline-block;
   padding: 0;
@@ -257,7 +257,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-9xl) var(--padding-24xl) var(--padding-11xl);
+  padding: 28px 43px 30px;
   position: relative;
 }
 .passwordChild {
@@ -269,8 +269,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-xl);
-  background-color: var(--color-gainsboro);
+  border-radius: 20px;
+  background-color: #d9d9d9;
 }
 .password1 {
   width: 150px;
@@ -284,9 +284,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-7xl) var(--padding-27xl) var(--padding-13xl);
+  padding: 26px 46px 32px;
   position: relative;
-  color: var(--color-gray-300);
+  color: rgba(0, 0, 0, 0.6);
 }
 .dontHaveAn,
 .login2 {
@@ -299,7 +299,7 @@
 }
 .dontHaveAn {
   width: 319px;
-  font-size: var(--font-size-3xl);
+  font-size: 22px;
   display: inline-block;
 }
 .foreground,
@@ -326,56 +326,56 @@
   position: relative;
   letter-spacing: normal;
   text-align: center;
-  font-size: var(--font-size-16xl);
-  color: var(--color-black);
-  font-family: var(--font-fredoka);
+  font-size: 35px;
+  color: #000;
+  font-family: Fredoka;
 }
 @media screen and (max-width: 925px) {
   .welcomeToEducatronContainer {
     font-size: 54px;
   }
   .background {
-    padding-left: var(--padding-44xl);
-    padding-right: var(--padding-44xl);
+    padding-left: 63px;
+    padding-right: 63px;
     box-sizing: border-box;
   }
   .alreadyHaveAnContainer {
-    font-size: var(--font-size-27xl);
+    font-size: 46px;
   }
   .login2,
   .password1,
   .username1 {
-    font-size: var(--font-size-9xl);
+    font-size: 28px;
   }
   .foreground {
-    padding: var(--padding-28xl) var(--padding-20xl);
+    padding: 47px 39px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 700px) {
   .background {
-    padding-left: var(--padding-12xl);
-    padding-right: var(--padding-12xl);
+    padding-left: 31px;
+    padding-right: 31px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
   .alreadyHaveAnContainer,
   .welcomeToEducatronContainer {
-    font-size: var(--font-size-15xl);
+    font-size: 34px;
   }
   .login2,
   .password1,
   .username1 {
-    font-size: var(--font-size-2xl);
+    font-size: 21px;
   }
   .dontHaveAn {
-    font-size: var(--font-size-lg);
+    font-size: 18px;
   }
   .foreground {
     gap: 29px 59px;
-    padding-top: var(--padding-12xl);
-    padding-bottom: var(--padding-12xl);
+    padding-top: 31px;
+    padding-bottom: 31px;
     box-sizing: border-box;
   }
 }

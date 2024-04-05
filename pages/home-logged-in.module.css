@@ -1,0 +1,265 @@
+.contentsIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  width: 1920px;
+  height: 9012px;
+}
+.educatronLtd2023 {
+  position: absolute;
+  top: 226px;
+  left: 1506px;
+  font-size: 30px;
+}
+.contactUs {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  display: inline-block;
+  width: 210px;
+  height: 47px;
+}
+.instagramCircleIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.facebookIcon {
+  position: absolute;
+  left: 110px;
+  height: 90px;
+}
+.facebookIcon,
+.linkedinIcon,
+.whatsappIcon {
+  top: 0;
+  width: 90px;
+  object-fit: cover;
+}
+.linkedinIcon {
+  position: absolute;
+  left: 220px;
+  height: 90px;
+}
+.whatsappIcon {
+  left: 330px;
+}
+.circledEnvelopeIcon,
+.logos,
+.whatsappIcon {
+  position: absolute;
+  height: 90px;
+}
+.circledEnvelopeIcon {
+  top: 0;
+  left: 440px;
+  width: 90px;
+  object-fit: cover;
+}
+.logos {
+  top: 119px;
+  left: 0;
+  width: 420px;
+}
+.footerNavigation,
+.policiesChild {
+  position: absolute;
+  top: 60px;
+  left: 72px;
+  width: 420px;
+  height: 191px;
+}
+.policiesChild {
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 548px;
+  height: 75px;
+}
+.copyright,
+.policies1,
+.privacy,
+.tc {
+  position: absolute;
+  top: 23px;
+  left: 177px;
+}
+.copyright,
+.policies1,
+.tc {
+  left: 307px;
+}
+.copyright,
+.policies1 {
+  left: 401px;
+}
+.policies1 {
+  left: 35px;
+  font-weight: 600;
+}
+.policies,
+.policiesItem {
+  position: absolute;
+  width: 548px;
+}
+.policies {
+  top: 43px;
+  left: 72px;
+  height: 98px;
+  color: #212a3e;
+}
+.policiesItem {
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  height: 75px;
+}
+.advertise,
+.career,
+.collaborate {
+  position: absolute;
+  top: 23px;
+  left: 252px;
+}
+.advertise,
+.collaborate {
+  left: 369px;
+}
+.collaborate {
+  left: 70px;
+  font-weight: 600;
+}
+.policies2 {
+  position: absolute;
+  top: 43px;
+  left: 646px;
+  width: 548px;
+  height: 98px;
+  color: #212a3e;
+}
+.educatronHighResolutionLogoIcon {
+  position: absolute;
+  top: 75px;
+  left: 1577px;
+  width: 210px;
+  height: 131px;
+  object-fit: cover;
+}
+.footer,
+.frameChild {
+  position: absolute;
+  top: 7961px;
+  left: 0;
+  border-radius: 50px 50px 0 0;
+  background-color: #212a3e;
+  width: 1920px;
+  height: 300px;
+}
+.frameChild {
+  top: 0;
+  border-radius: 0 0 50px 50px;
+  height: 250px;
+}
+.login {
+  position: absolute;
+  top: 82px;
+  left: 1652px;
+  display: none;
+}
+.profilePicIcon {
+  position: absolute;
+  top: 50px;
+  left: 1701px;
+  width: 149px;
+  height: 149px;
+  object-fit: cover;
+}
+.edwardNathanS {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  display: inline-block;
+  width: 492px;
+}
+.welcome {
+  position: absolute;
+  top: 0;
+  left: 139px;
+  font-weight: 300;
+}
+.greetings {
+  position: absolute;
+  top: 65px;
+  left: 1120px;
+  width: 492px;
+  height: 120px;
+  text-align: center;
+  font-size: 47px;
+  color: #fff;
+  font-family: Inter;
+}
+.educatronHighResolutionLogoIcon1,
+.menuIcon {
+  position: absolute;
+  top: 80px;
+  left: 451px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.educatronHighResolutionLogoIcon1 {
+  top: 51px;
+  left: 72px;
+  width: 235px;
+  height: 147px;
+}
+.headerLoggedIn1,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 236px;
+}
+.headerLoggedIn1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 0 50px 50px;
+}
+.headerLoggedIn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 250px;
+  font-size: 30px;
+  color: #f1f6f9;
+  font-family: Fredoka;
+}
+.home {
+  width: 1920px;
+  position: relative;
+  border-radius: 50px;
+  background-color: #9ba4b5;
+  height: 8261px;
+}
+.homeLoggedIn {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
