@@ -1,21 +1,10 @@
 .skillsIcon {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
   position: absolute;
-  left: 0;
-  top: 22px;
-  transform: scale(1.053);
-}
-.wrapperSkills {
-  position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 1825.1px;
   height: 855.1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
 }
 .skills {
   width: 100%;

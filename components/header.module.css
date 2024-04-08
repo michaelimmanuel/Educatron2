@@ -1,33 +1,30 @@
 .frameChild {
   position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 0 0 50px 50px;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px 0px 50px 50px;
   background-color: #212a3e;
   width: 1920px;
   height: 200px;
 }
-.classes,
-.tutors {
-  height: 97.7%;
-  top: 2.3%;
-  display: inline-block;
-}
 .classes {
   position: absolute;
+  height: 97.7%;
   width: 17.73%;
-  left: 0;
+  top: 2.3%;
+  left: 0%;
+  display: inline-block;
 }
-.tutors {
-  width: 14.38%;
-  left: 27.16%;
-}
-.aboutUs,
-.login,
 .tutors {
   position: absolute;
+  height: 97.7%;
+  width: 14.38%;
+  top: 2.3%;
+  left: 27.16%;
+  display: inline-block;
 }
 .aboutUs {
+  position: absolute;
   height: 97.7%;
   width: 21.09%;
   top: 2.3%;
@@ -35,12 +32,12 @@
   display: inline-block;
 }
 .login {
-  top: 0;
+  position: absolute;
+  top: 0px;
   left: 552px;
   font-family: Fredoka;
 }
-.navigation,
-.rectangleParent {
+.navigation {
   position: absolute;
   top: 78px;
   left: 647px;
@@ -48,8 +45,9 @@
   height: 43.5px;
 }
 .rectangleParent {
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 1920px;
   height: 236px;
 }
@@ -63,7 +61,7 @@
 }
 .header {
   width: 1920px;
-  border-radius: 0 0 50px 50px;
+  border-radius: 0px 0px 50px 50px;
   max-width: 100%;
   height: 200px;
   text-align: left;

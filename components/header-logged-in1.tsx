@@ -1,17 +1,14 @@
 import type { NextPage } from "next";
-import styles from "./header-logged-in.module.css";
+import styles from "./header-logged-in1.module.css";
 
-const HeaderLoggedIn2: NextPage = () => {
-
+const HeaderLoggedIn1: NextPage = () => {
   return (
     <header className={styles.headerLoggedIn}>
-
       <div className={styles.headerLoggedIn1}>
-        <div className={styles.greetingsBox}>
-          <div className={styles.profilePicContainer} />
-
+        <div className={styles.rectangleParent}>
+          <div className={styles.frameChild} />
           <div className={styles.login}>Login</div>
-          <div className={styles.greetingsBoxInner}>
+          <div className={styles.frameWrapper}>
             <div className={styles.educatronHighResolutionLogoParent}>
               <img
                 className={styles.educatronHighResolutionLogoIcon}
@@ -28,7 +25,6 @@ const HeaderLoggedIn2: NextPage = () => {
                 />
               </div>
             </div>
-
           </div>
           <div className={styles.frameParent}>
             <div className={styles.greetingsWrapper}>
@@ -46,13 +42,10 @@ const HeaderLoggedIn2: NextPage = () => {
               src="/profile-pic@2x.png"
             />
           </div>
-
         </div>
       </div>
     </header>
-
   );
 };
 
-export default HeaderLoggedIn2;
-
+export default HeaderLoggedIn1;
