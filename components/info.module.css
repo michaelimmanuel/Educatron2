@@ -1,0 +1,180 @@
+.frameChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  z-index: 1;
+}
+.infoInner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.edwardMichaelAlleandro {
+  height: 63px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.id {
+  position: relative;
+  display: inline-block;
+  min-width: 60px;
+}
+.div {
+  position: relative;
+}
+.birthday {
+  width: 559px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.male {
+  position: relative;
+  display: inline-block;
+  min-width: 115px;
+}
+.gender {
+  width: 501px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.div1 {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.birthday1 {
+  width: 858px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.nameParent {
+  width: 1154px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 33px;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: 52px;
+  color: #000;
+  font-family: Fredoka;
+}
+.info {
+  width: 1600px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 61px 72px 1071px;
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1275px) {
+  .edwardMichaelAlleandro {
+    font-size: 42px;
+  }
+
+  .name {
+    flex-wrap: wrap;
+  }
+
+  .id {
+    font-size: 42px;
+  }
+
+  .div {
+    font-size: 42px;
+  }
+
+  .male {
+    font-size: 42px;
+  }
+
+  .div1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .info {
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .birthday1 {
+    flex-wrap: wrap;
+  }
+
+  .nameParent {
+    gap: 16px 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edwardMichaelAlleandro {
+    font-size: 31px;
+  }
+
+  .id {
+    font-size: 31px;
+  }
+
+  .div {
+    font-size: 31px;
+  }
+
+  .birthday {
+    flex-wrap: wrap;
+  }
+
+  .male {
+    font-size: 31px;
+  }
+
+  .gender {
+    flex-wrap: wrap;
+  }
+
+  .div1 {
+    font-size: 31px;
+  }
+}

@@ -46,7 +46,7 @@ const HomeLoggedIn: NextPage = () => {
             <div className={styles.policies1}>Policies:</div>
           </div>
           <div className={styles.policies2}>
-            <div className={styles.policiesItem} />
+            <div className={styles.policiesChild} />
             <div className={styles.career}>Career</div>
             <div className={styles.advertise}>Advertise</div>
             <div className={styles.collaborate}>Collaborate:</div>

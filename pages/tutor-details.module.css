@@ -1,12 +1,11 @@
-.tutorsListChild {
+.tutorDetailsChild {
   align-self: stretch;
-  height: 5000px;
+  height: 3300px;
   position: relative;
   background-color: #d9d9d9;
   display: none;
 }
-.tutorsList {
-
+.tutorDetails {
   width: 100%;
   position: relative;
   background-color: #d9d9d9;
@@ -14,19 +13,17 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 4450px;
+  gap: 2750px;
   letter-spacing: normal;
-
 }
 
 @media screen and (max-width: 1275px) {
-  .tutorsList {
-    gap: 2225px 4450px;
+  .tutorDetails {
+    gap: 1375px 2750px;
   }
 }
 @media screen and (max-width: 900px) {
-  .tutorsList {
-    gap: 1112px 4450px;
+  .tutorDetails {
+    gap: 687px 2750px;
   }
 }
-

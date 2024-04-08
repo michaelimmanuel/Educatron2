@@ -5,7 +5,7 @@ import styles from "./frame.module.css";
 const Frame: NextPage = () => {
   return (
     <div className={styles.courses}>
-      <DetailPageIcon />
+      <DetailPage />
     </div>
   );
 };

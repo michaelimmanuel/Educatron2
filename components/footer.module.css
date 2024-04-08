@@ -1,156 +1,360 @@
-.educatronLtd2023 {
+.facebookLogo {
+  height: 75px;
+  width: 100%;
+
   position: absolute;
-  top: 226px;
-  left: 1506px;
-  font-size: 30px;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+
 }
-.contactUs {
-  position: absolute;
-  top: 85px;
-  left: 0;
+.policies1 {
+  position: relative;
+  font-weight: 600;
   display: inline-block;
-  width: 210px;
+  min-width: 97px;
+  z-index: 1;
+}
+.privacy {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 1;
+}
+.tc {
+  position: relative;
+  display: inline-block;
+  min-width: 48px;
+  z-index: 1;
+}
+.copyright {
+  position: relative;
+  display: inline-block;
+  min-width: 112px;
+  z-index: 1;
+}
+.policies {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 23px 35px;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 98px;
+  gap: 20px;
+  z-index: 1;
+}
+
+.contactUs {
   height: 47px;
+  width: 210px;
+  position: relative;
+
+  display: inline-block;
+  flex-shrink: 0;
+
 }
 .instagramCircleIcon {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 90px;
   height: 90px;
   object-fit: cover;
 }
 .facebookIcon {
   position: absolute;
+  top: 0px;
   left: 110px;
-  height: 90px;
-}
-.facebookIcon,
-.linkedinIcon,
-.whatsappIcon {
-  top: 0;
   width: 90px;
+  position: relative;
+
   object-fit: cover;
+  min-height: 90px;
+
 }
+
 .linkedinIcon {
   position: absolute;
-  left: 220px;
+  width: 90px;
   height: 90px;
 }
-.whatsappIcon {
-  left: 330px;
-}
-.circledEnvelopeIcon,
-.logos,
 .whatsappIcon {
   position: absolute;
-  height: 90px;
+  margin: 0 !important;
+
+  top: 0px;
+  right: -110px;
+  bottom: 0px;
+  max-height: 100%;
+
+  object-fit: cover;
 }
 .circledEnvelopeIcon {
-  top: 0;
+  position: absolute;
+  top: 0px;
   left: 440px;
   width: 90px;
+  height: 90px;
   object-fit: cover;
 }
 .logos {
-  top: 119px;
-  left: 0;
-  width: 420px;
+  margin: 0 !important;
+
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  bottom: -18px;
+
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+
 }
-.footerNavigation,
-.policiesChild {
+.footerNavigation {
   position: absolute;
   top: 60px;
   left: 72px;
   width: 420px;
-  height: 191px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 85px 0px 59px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  margin-top: -81px;
+  color: #fff;
+
 }
-.policiesChild {
-  top: 0;
-  left: 0;
-  border-radius: 50px;
-  background-color: #d9d9d9;
-  width: 548px;
-  height: 75px;
+.policiesParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 356px;
+  max-width: 100%;
+
 }
-.copyright,
-.policies1,
-.privacy,
-.tc {
-  position: absolute;
-  top: 23px;
-  left: 177px;
-}
-.copyright,
-.policies1,
-.tc {
-  left: 307px;
-}
-.copyright,
-.policies1 {
-  left: 401px;
-}
-.policies1 {
-  left: 35px;
+.collaborate {
+  position: relative;
+
   font-weight: 600;
-}
-.policies,
-.policiesItem {
-  position: absolute;
-  width: 548px;
+  z-index: 1;
+
 }
 .policies {
+  position: absolute;
   top: 43px;
   left: 72px;
+  width: 548px;
   height: 98px;
   color: #212a3e;
 }
-.policiesItem {
-  top: 0;
-  left: 0;
-  border-radius: 50px;
-  background-color: #d9d9d9;
-  height: 75px;
+.career {
+  position: relative;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 1;
+
 }
-.advertise,
-.career,
+.advertise {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+  z-index: 1;
+
+}
 .collaborate {
   position: absolute;
   top: 23px;
-  left: 252px;
-}
-.advertise,
-.collaborate {
-  left: 369px;
-}
-.collaborate {
   left: 70px;
   font-weight: 600;
 }
 .policies2 {
-  position: absolute;
-  top: 43px;
-  left: 646px;
-  width: 548px;
-  height: 98px;
-  color: #212a3e;
+  flex: 0.7445;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 23px 70px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 40px;
+  min-width: 356px;
+  min-height: 98px;
+  max-width: 100%;
+
 }
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+  max-width: 100%;
+}
+.footerInner {
+  width: 1122px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px 11px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 .educatronHighResolutionLogoIcon {
-  position: absolute;
-  top: 75px;
-  left: 1577px;
-  width: 210px;
   height: 131px;
+
+  width: 210px;
+  position: relative;
+
   object-fit: cover;
 }
+.educatronHighResolutionLogoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 38px;
+}
+.educatronLtd2023 {
+  position: relative;
+}
+.frameGroup {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
 .footer {
-  width: 1920px;
-  border-radius: 50px 50px 0 0;
+  align-self: stretch;
+
+  border-radius: 50px 50px 0px 0px;
   background-color: #212a3e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 43px 95px 38px 72px;
+  box-sizing: border-box;
+
   max-width: 100%;
-  height: 300px;
+  gap: 20px;
+  z-index: 1;
+
   text-align: left;
   font-size: 24px;
-  color: #fff;
+  color: #212a3e;
+
   font-family: Inter;
 }
+
+@media screen and (max-width: 1625px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    padding-left: 36px;
+    padding-right: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .policies {
+    flex-wrap: wrap;
+  }
+
+  .policiesParent {
+    min-width: 100%;
+  }
+
+  .policies2 {
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .educatronLtd2023 {
+    font-size: 24px;
+  }
+
+  .footer {
+    padding-right: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .policies1 {
+    font-size: 19px;
+  }
+
+  .privacy {
+    font-size: 19px;
+  }
+
+  .tc {
+    font-size: 19px;
+  }
+
+  .copyright {
+    font-size: 19px;
+  }
+
+  .contactUs {
+    font-size: 19px;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+  }
+
+  .collaborate {
+    font-size: 19px;
+  }
+
+  .career {
+    font-size: 19px;
+  }
+
+  .advertise {
+    font-size: 19px;
+  }
+
+  .policies2 {
+    flex: 1;
+  }
+
+  .educatronLtd2023 {
+    font-size: 18px;
+  }
+}
+

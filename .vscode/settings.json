@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "Educatron",
+    "id": "65fd5280d9b211c5a2fb68c5",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "CSS Modules",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "g:\\Job\\Moonlay\\Educatron2\\src\\components",
+    "screensPath": "g:\\Job\\Moonlay\\Educatron2\\src\\pages"
+  }
+}
