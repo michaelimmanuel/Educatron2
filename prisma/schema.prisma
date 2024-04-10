@@ -36,6 +36,8 @@ model Course{
   level                   String
   avgTime                 String
   student                 Enrollments[]
+  quiz                    Quizzes[]
+  category                Category[]
 }
 
 model Enrollments{
@@ -48,3 +50,18 @@ model Enrollments{
 }
 
 
+model Quizzes{
+  id                      Int       @id @default(autoincrement())
+  title                   String
+  content                 String
+  sequence                Int
+  course_id               Int
+  course                  Course    @relation(fields: [course_id], references: [id])
+}
+
+model Category{
+  id                      Int       @id @default(autoincrement())
+  name                    String
+  description             String
+  courses                 Course[]
+}
