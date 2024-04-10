@@ -19,5 +19,49 @@ model Student{
   email     String
   password  String
   bio       String
+  courses   Enrollments[]
 }
 
+model Course{
+  id                      Int       @id @default(autoincrement())
+  name                    String
+  description             String
+  student_count           Int
+  provider                String
+  provimg                 String
+  price                   Int
+  duration_start          DateTime
+  duration_end            DateTime
+  rating                  Float
+  level                   String
+  avgTime                 String
+  student                 Enrollments[]
+  quiz                    Quizzes[]
+  category                Category[]
+}
+
+model Enrollments{
+  id                      Int       @id @default(autoincrement())
+  student_id              Int
+  course_id               Int
+  date                    DateTime
+  student                 Student   @relation(fields: [student_id], references: [id])
+  course                  Course    @relation(fields: [course_id], references: [id])
+}
+
+
+model Quizzes{
+  id                      Int       @id @default(autoincrement())
+  title                   String
+  content                 String
+  sequence                Int
+  course_id               Int
+  course                  Course    @relation(fields: [course_id], references: [id])
+}
+
+model Category{
+  id                      Int       @id @default(autoincrement())
+  name                    String
+  description             String
+  courses                 Course[]
+}
