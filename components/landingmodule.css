@@ -3,7 +3,7 @@
   top: 0px;
   left: 0px;
   border-radius: 50px;
-  width: 1920px;
+  width: 100%;
   height: 9012px;
 }
 .educatronLtd2023 {
@@ -150,7 +150,7 @@
   left: 0px;
   border-radius: 50px 50px 0px 0px;
   background-color: #212a3e;
-  width: 1920px;
+  width: 100%;
   height: 300px;
 }
 .frameChild {
@@ -159,7 +159,7 @@
   left: 0px;
   border-radius: 0px 0px 50px 50px;
   background-color: #212a3e;
-  width: 1920px;
+  width: 100%;
   height: 200px;
 }
 .classes {
@@ -225,7 +225,7 @@
   color: #f1f6f9;
 }
 .home {
-  width: 1920px;
+  width: 100%;
   position: relative;
   border-radius: 50px;
   background-color: #9ba4b5;
