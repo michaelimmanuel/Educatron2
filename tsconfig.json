@@ -15,9 +15,11 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/prisma/*": ["./prisma/*"]
+      "@/prisma/*": ["./prisma/*"],
+      "@/auth" : ["./auth.ts"],
+      "@/db" : ["./lib/db.ts"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "/*.ts", "pages/api/test/route.ts"],
   "exclude": ["node_modules"]
 }

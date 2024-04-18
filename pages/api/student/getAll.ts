@@ -1,12 +1,18 @@
 
-import { PrismaClient } from '@prisma/client';
+
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const prisma = new PrismaClient();
+import { db } from '@/db'
 
-export default async function GET(req: NextApiRequest,
+
+
+export default async function handler(req: NextApiRequest,
     res: NextApiResponse) {
-    const students = await prisma.student.findMany()
+    if(req.method === 'GET') {
+        const students = await db.student.findMany()
+        return res.status(200).json(students)
 
-    return res.status(200).json(students)
+    }else {
+        return res.status(400).json({message: 'Method not allowed'})
+    }
 }

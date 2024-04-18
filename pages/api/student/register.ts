@@ -2,15 +2,23 @@
 import { PrismaClient } from '@prisma/client';
 import { NextApiRequest, NextApiResponse } from 'next';
 import {hash} from '../../../lib/hash';
+import * as z from 'zod'
+
+const schema = z.object({
+    name: z.string(),
+    email: z.string().email(),
+    password: z.string().
+        min(6, {message: "Password must be at least 8 characters long"}),
+    bio: z.string()
+
+})
 
 
 const prisma = new PrismaClient();
 
 export default async function POST(req: NextApiRequest,res: NextApiResponse) {
-    const name = req.body.name;
-    const email = req.body.email;
-    const password = hash(req.body.password);
-    const bio = req.body.bio;
+    const body = await req.body
+    const {name, email, password, bio} = schema.parse(body)
 
     const student = await prisma.student.create({
         data: {
