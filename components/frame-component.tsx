@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import HeaderLoggedIn from "./header-logged-in";
-import styles from "./frame-component.module.css";
+import styles from "../src/output.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const FrameComponent: NextPage = () => {
   return (

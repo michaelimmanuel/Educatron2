@@ -2,7 +2,9 @@ import type { NextPage } from "next";
 import FrameComponent from "../components/frame-component";
 import InfoIcon from "../components/info-icon";
 import Footer from "../components/footer";
-import styles from "./profile.module.css";
+import styles from "../src/output.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const Profile: NextPage = () => {
   return (
