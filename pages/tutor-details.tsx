@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import HeaderLoggedIn1 from "../components/header-logged-in1";
+import HeaderLoggedIn1 from "../components/header-logged-in";
 import Footer from "../components/footer";
 import styles from "../src/output.css";
 import 'tailwindcss/tailwind.css';
