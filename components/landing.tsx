@@ -11,6 +11,7 @@ const Landing: NextPage = () => {
         <Header />
       </div>
         <OpeningPg />
+        
     </div>
   );
 };
