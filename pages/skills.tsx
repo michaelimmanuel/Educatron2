@@ -1,11 +1,13 @@
 import type { NextPage } from "next";
-import styles from "./skills.module.css";
+import styles from "../src/output.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const Skills: NextPage = () => {
   return (
-    <div className={styles.skills}>
-      <img className={styles.skillsIcon} alt="" src="/skills@2x.png" />
-    </div>
+      <h1>
+      Skills Page
+      </h1>
   );
 };
 

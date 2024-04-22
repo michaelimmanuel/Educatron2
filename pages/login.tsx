@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import LoginIcon from "../components/login1";
-import styles from "./login.module.css";
+import LoginPage from "../components/login";
+import styles from "./global.css"
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const Login: NextPage = () => {
   return (
-    <div className={styles.login}>
-      <LoginIcon />
-    </div>
+      <LoginPage />
   );
 };
 
