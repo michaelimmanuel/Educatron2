@@ -16,7 +16,7 @@ Navigations:
 
 const Header: NextPage = () => {
   return (
-<div className="navbar h-24 bg-ColorTealish text-ColorWhite rounded-b-2xl fixed top-0 left-0 right-0 opacity-95">
+<div className="navbar h-[10%] bg-ColorTealish text-ColorWhite rounded-b-2xl fixed opacity-100 z-[10]">
   <div className="navbar-start">
   <div className="dropdown mr-4">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ml-4 ">
@@ -55,7 +55,7 @@ const Header: NextPage = () => {
     </ul>
   </div>
   <div className="navbar-end mr-4 ">
-    <button type="button" className="btn bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"> Login </button>
+    <button type="button" className="btn"> Login </button>
   </div>
 </div>
   );
