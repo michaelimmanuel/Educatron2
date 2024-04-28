@@ -1,0 +1,21 @@
+   .scrollbar::-webkit-scrollbar {
+    height: 12px;
+    width: 5px;
+    background: var(--background);
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+  }
+  
+  .scrollbar::-webkit-scrollbar-corner {
+    background: var(--background);
+  }
+  
+  .scrollbar.canvas {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+  }
+  

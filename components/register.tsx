@@ -2,8 +2,11 @@ import type { NextPage } from "next";
 import styles from "../src/output.css";
 import 'tailwindcss/tailwind.css';
 import 'daisyui/dist/full.css';
+import React, { useState } from 'react';
 
 const Register1: NextPage = () => {
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
     <div className="flex flex-row bg-White"> 
 
