@@ -1,18 +1,18 @@
 import type { NextPage } from "next";
 import HeaderLoggedIn1 from "../components/header-logged-in1";
+import HeaderLoggedOut from "../components/header"
+import HeaderLoggedIn2 from "../components/header-logged-in";
 import Footer from "../components/footer";
-
-import styles from "./index.module.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 import React from "react";
 
 const TutorsList: NextPage = () => {
 
   return (
-    <div className={styles.tutorsList}>
-      <div className={styles.tutorsListChild} />
+    <div className="container">
       <HeaderLoggedIn1/>
       <Footer/>
-
     </div>
   );
 };

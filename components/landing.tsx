@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
-import styles from "./landingmodule.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const Landing: NextPage = () => {
   return (

@@ -1,15 +1,14 @@
 import type { NextPage } from "next";
 import LandingPage from "../components/landing";
-import styles from "./landing.module.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import styles from "../src/output.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const Landing: NextPage = () => {
-  return (
-    
-   <div className={styles.home}>   
+  return (     
     <Header />
-    </div>
   );
 };
 
