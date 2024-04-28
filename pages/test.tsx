@@ -7,11 +7,12 @@ const handleSubmit = async (e) => {
     
     try {
         const result = await signIn('credentials', {
-            redirect: false,
+            redirect: true,
             email,
             password,
             // Set withCredentials to true here
-            credentials: 'include'
+            credentials: 'include',
+            callbackUrl: 'http://localhost:3000',
         });
         console.log(result);
     } catch (error) {

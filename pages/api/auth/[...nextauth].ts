@@ -1,7 +1,7 @@
 
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { getBaseUrl } from "@/lib";
+import { getBaseUrl } from "@/lib/getBaseUrl"
 const handler = NextAuth({ 
   
   pages: {
@@ -22,6 +22,11 @@ const handler = NextAuth({
       session.user = token.userId; //(3)
       return session;
     },
+
+    async redirect({ url, baseUrl }) {
+      if (url.startsWith("/")) return `${baseUrl}${url}`
+      else if (new URL(url).origin === baseUrl) return url
+      return baseUrl    }
   },
 
   providers: [
@@ -33,7 +38,7 @@ const handler = NextAuth({
         },
         async authorize(credentials: any, req: any) {
           const apiUrl = "http://localhost:3000/api/student/login";
-          
+          console.log(getBaseUrl())
           const data = new URLSearchParams();
           Object.keys(credentials).forEach(key => data.append(key, credentials[key]));
       
