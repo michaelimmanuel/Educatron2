@@ -24,7 +24,7 @@ export default async function POST(req: NextApiRequest,res: NextApiResponse) {
         data: {
             name: name,
             email: email,
-            password: password,
+            password: hash(password),
             bio: bio
         }
     })

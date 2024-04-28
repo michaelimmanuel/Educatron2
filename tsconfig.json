@@ -4,7 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -18,7 +18,9 @@
       "@/prisma/*": ["./prisma/*"],
       "@/auth" : ["./auth.ts"],
       "@/db" : ["./lib/db.ts"],
-    }
+      "next/server" : ["./node_modules/next/server.js"],
+      "next/headers" : ["./node_modules/next/headers.js"],
+    },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "/*.ts", "pages/api/test/route.ts"],
   "exclude": ["node_modules"]

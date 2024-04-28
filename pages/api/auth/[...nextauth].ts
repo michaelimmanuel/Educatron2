@@ -3,9 +3,14 @@ import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 const handler = NextAuth({ 
+<<<<<<< Updated upstream
  pages: {
     signIn: '/login',
     
+=======
+  pages: {
+    signIn: "/login",
+>>>>>>> Stashed changes
   },
   providers: [
       CredentialsProvider({
