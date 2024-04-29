@@ -24,7 +24,7 @@ const handler = NextAuth({
     },
 
     async redirect({ url, baseUrl }) {
-      if (url.startsWith("/")) return `${baseUrl}${url}`
+      if (url.startsWith("/")) return `${getBaseUrl()}${url}`
       else if (new URL(url).origin === baseUrl) return url
       return baseUrl    }
   },

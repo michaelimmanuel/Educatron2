@@ -1,5 +1,5 @@
 import { signIn } from 'next-auth/react'
-
+import { getBaseUrl } from '@/lib/getBaseUrl';
 const handleSubmit = async (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -12,7 +12,7 @@ const handleSubmit = async (e) => {
             password,
             // Set withCredentials to true here
             credentials: 'include',
-            callbackUrl: 'http://localhost:3000/test/loggedin',
+            callbackUrl: '/test/loggedin',
             
         });
         console.log(result);
