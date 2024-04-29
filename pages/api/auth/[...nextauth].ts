@@ -12,15 +12,15 @@ const handler = NextAuth({
   },
 
   callbacks: {
-    async jwt({ token, account, profile }) { 
-      if(account && account.type === "credentials") { //(2)
-        token.userId = account.providerAccountId; // this is Id that coming from authorize() callback 
+    async jwt({user, token}) {
+      if (user) {
+          token.user = user;
       }
       return token;
     },
-    async session({ session, token, user }) { 
-      session.user = token.userId; //(3)
-      return session;
+    async session({session, token}: any) {
+        session.user = token.user;
+        return session;
     },
 
     async redirect({ url, baseUrl }) {

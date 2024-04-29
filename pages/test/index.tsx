@@ -12,7 +12,8 @@ const handleSubmit = async (e) => {
             password,
             // Set withCredentials to true here
             credentials: 'include',
-            callbackUrl: 'http://localhost:3000',
+            callbackUrl: 'http://localhost:3000/test/loggedin',
+            
         });
         console.log(result);
     } catch (error) {
