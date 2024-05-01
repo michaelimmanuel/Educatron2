@@ -6,6 +6,7 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "dependencies": {
+    "@auth/core": "^0.30.0",
     "@prisma/client": "^5.12.1",
     "@react-three/fiber": "^8.16.2",
     "@types/three": "^0.163.0",
@@ -15,11 +16,12 @@
     "framer-motion-3d": "^11.1.7",
     "motion": "^10.17.0",
     "next": "^14.1.4",
-    "next-auth": "^5.0.0-beta.16",
-    "popmotion": "^11.0.5",
+    "next-auth": "^4.20.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
+    "zod": "^3.22.4",
+    "popmotion": "^11.0.5",
     "three": "^0.163.0"
   },
   "devDependencies": {
