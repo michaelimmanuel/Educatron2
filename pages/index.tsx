@@ -1,19 +1,14 @@
 import type { NextPage } from "next";
-import HeaderLoggedIn1 from "../components/header-logged-in1";
-import Footer from "../components/footer";
-
-import styles from "./index.module.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 import React from "react";
+import Landing from "../components";
+import IndexPage from "../components";
 
 const TutorsList: NextPage = () => {
 
   return (
-    <div className={styles.tutorsList}>
-      <div className={styles.tutorsListChild} />
-      <HeaderLoggedIn1/>
-      <Footer/>
-
-    </div>
+      <IndexPage />
   );
 };
 

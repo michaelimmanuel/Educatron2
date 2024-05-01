@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
-import styles from "./home-logged-in.module.css";
+import styles from "../src/output.css";
+import 'tailwindcss/tailwind.css';
+import 'daisyui/dist/full.css';
 
 const HomeLoggedIn: NextPage = () => {
   return (
