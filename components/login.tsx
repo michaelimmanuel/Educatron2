@@ -1,8 +1,40 @@
 import type { NextPage } from "next";
 import 'tailwindcss/tailwind.css';
 import 'daisyui/dist/full.css';
+import { signIn } from "next-auth/react";
+import React, { useState } from 'react';
+
+
+
 
 const LoginPage: NextPage = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
+
+
+  const onClick = () => {
+    try {
+      signIn('credentials', {
+        redirect: true,
+        email,
+        password,
+        credentials: 'include',
+        callbackUrl: '/test/loggedin',
+        
+      });
+    } catch (error) {
+      console.error('Login failed:', error);
+    }
+
+  }
   return (
     <div className="w-full h-screen bg-ColorWhite font-sans" id="LoginPage">
       <div className="flex flex-row start-0 mx-0 px-0 h-screen">
@@ -50,15 +82,15 @@ const LoginPage: NextPage = () => {
           <div>
             <div className="w-80 mb-6 mt-10 space-y-8">
               <div className="mb-4">
-                <input type="text" id="username" className="bg-ColorBaseline border border-ColorBaseline text-gray-900 text-sm rounded-lg w-full p-2.5" placeholder="Username" required />
+                <input type="text" onChange={handleEmailChange} id="username" name="email" className="bg-ColorBaseline border border-ColorBaseline text-gray-900 text-sm rounded-lg w-full p-2.5" placeholder="Email" required />
               </div>
               <div className="mb-4">
-                <input type="password" id="password" className="bg-ColorBaseline border border-ColorBaseline text-gray-900 text-sm rounded-lg w-full p-2.5" placeholder="Password" required />
+                <input type="password" onChange={handlePasswordChange} id="password" name="password" className="bg-ColorBaseline border border-ColorBaseline text-gray-900 text-sm rounded-lg w-full p-2.5" placeholder="Password" required />
               </div>
             </div>
           </div>
           <div className="flex btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-link rounded-full">
-            <button className="btn-lg sm:btn-sm md:btn-md lg:btn-lg text-ColorTealish text-10x2 font-bold hover:underline w-full p-2.5">
+            <button onClick={onClick} className="btn-lg sm:btn-sm md:btn-md lg:btn-lg text-ColorTealish text-10x2 font-bold hover:underline w-full p-2.5">
               Login
             </button>
           </div>
