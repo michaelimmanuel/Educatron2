@@ -2,9 +2,11 @@ import { Fragment } from "react";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
+import { SessionProvider } from "next-auth/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    <SessionProvider>
     <Fragment>
       <Head>
         <title>Educatron</title>
@@ -15,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Component {...pageProps} />
     </Fragment>
+    </SessionProvider>
   );
 }
 

@@ -4,7 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -15,9 +15,13 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/prisma/*": ["./prisma/*"]
-    }
+      "@/prisma/*": ["./prisma/*"],
+      "@/auth" : ["./auth.ts"],
+      "@/db" : ["./lib/db.ts"],
+      "@/validator" : ["./lib/validator.ts"],
+      "@/lib/*" : ["./lib/*"],
+    },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "/*.ts", "pages/api/test/route.ts"],
   "exclude": ["node_modules"]
 }

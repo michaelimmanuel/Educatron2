@@ -20,6 +20,7 @@ model Student{
   password  String
   bio       String
   courses   Enrollments[]
+  
 }
 
 model Course{
