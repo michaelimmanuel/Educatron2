@@ -19,6 +19,12 @@ export default async function POST(req: NextApiRequest,res: NextApiResponse) {
     const student = await prisma.student.findFirst({
         where: {
             email: email,
+        },
+        select: {
+            id: true,
+            name: true,
+            email: true,
+            password: true
         }
     })
 
@@ -27,8 +33,8 @@ export default async function POST(req: NextApiRequest,res: NextApiResponse) {
     }
 
     if(student && bcrypt.compareSync(password, student.password)) {
-        console.log(student)
-        return res.status(200).json(student)
+        const {password, ...rest} = student
+        return res.status(200).json(rest)
     } else {
         return res.status(400).json({message: "Invalid email or password"})
     }
