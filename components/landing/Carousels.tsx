@@ -24,6 +24,7 @@ interface ParallaxProps {
   baseVelocity: number;
 }
 
+
 function ParallaxText({ children, baseVelocity = 10 }: ParallaxProps) {
   const baseX = useMotionValue(0);
   const { scrollY } = useScroll();
@@ -83,15 +84,27 @@ function ParallaxText({ children, baseVelocity = 10 }: ParallaxProps) {
 }
 
 function CardProps(){
-    const cards = [];
+    const cards = []; 
+
   
     for(let i = 0; i < Classes.length; i++){
+      const startDate = new Date(Classes[i].course_durationstart);
+      const endDate = new Date(Classes[i].course_durationend);
+      
+      const months = (endDate.getFullYear() - startDate.getFullYear()) * 12 + endDate.getMonth() - startDate.getMonth();
+      console.log(months);
+
       cards.push(
         <div className="carousel-item mx-2 mr-4">        
         <CardComponent
-          key={Classes[i].id} // Add a unique key prop for each card
-          title= {Classes[i].title} // Dynamically set the title
-          subtitle= {Classes[i].subtitle} // Dynamically set the subtitle
+          key={Classes[i].course_id} // Add a unique key prop for each card
+          title= {Classes[i].course_name} // Dynamically set the title
+          subtitle= {Classes[i].course_description} // Dynamically set the subtitle
+          imagesrc= {Classes[i].course_provimg}
+          level = {Classes[i].course_level}
+          category = {Classes[i].course_category}
+          provider = {Classes[i].course_provider}
+          duration = {months}
         />
     </div>
 
